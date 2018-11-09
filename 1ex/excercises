@@ -1,0 +1,35 @@
+#!/usr/bin/perl 
+
+#while (1) { print $i++,"\n"; }; #Meanwhile 1 be 1 this loop will be a counter. 
+#in other words this counter don't stop until the user press cntrl+c because 1 allways will be 1
+
+my $i = 10;
+
+while ($i>=0) 
+{
+	print $i--,"\n";
+
+	#sleep 1;
+}
+
+
+    use strict;
+    use warnings;
+     
+    print "Your name please: ";
+    my $name = <STDIN>;
+    chomp $name;
+     
+   print "$name how are you? \n";
+
+   my $answer = 0;
+
+    while (1) {    	
+
+   		my $answer = <STDIN>;
+
+   		chomp $answer;
+
+   		print "Tell me more... \n";
+    	
+    }
